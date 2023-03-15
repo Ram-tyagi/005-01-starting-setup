@@ -1,10 +1,10 @@
 import React from 'react';
-import './ExpenseFilter.css';
+import './ExpensesFilter.css';
 
-const ExpenseFilter = (props) => {
+const ExpensesFilter = (props) => {
 
     const dropDownChangeHandler = (event) => {
-       
+
         props.onExpenseSelectedValue(event.target.value)
     }
   return (
@@ -22,4 +22,4 @@ const ExpenseFilter = (props) => {
   );
 };
 
-export default ExpenseFilter;
+export default ExpensesFilter;
